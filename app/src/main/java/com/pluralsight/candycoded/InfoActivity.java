@@ -29,7 +29,7 @@ public class InfoActivity extends AppCompatActivity {
     // TODO - Task 2 - Launch the Google Maps Activity
     // ***
     public void createMapIntent(View view) {
-        Uri uriAddress = Uri.parse("geo:0,0?q=618 E South Orlando FL 32801");
+        Uri uriAddress = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
         Intent mapInent = new Intent(Intent.ACTION_VIEW, uriAddress);
         mapInent.setPackage("com.google.android.apps.maps");
 
