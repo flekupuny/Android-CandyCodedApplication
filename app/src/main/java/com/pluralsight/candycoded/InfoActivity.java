@@ -35,6 +35,7 @@ public class InfoActivity extends AppCompatActivity {
 
         if (mapInent.resolveActivity(getPackageManager()) !=null);
         startActivity(mapInent);
+        
     }
 
     // ***
